@@ -10,6 +10,10 @@ body {
     color: white;
     padding: 20px;
     text-align: center;
+    display: flex; /* Объединено из второго блока */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
 }
 
 img {
@@ -26,6 +30,7 @@ div {
 
 h1 {
     color: #E6E6FA;
+    margin-left: 20px; /* Перемещено сюда */
 }
 
 table {
@@ -56,19 +61,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 100px;
-}
-
 .header img {
     width: 120px;
     height: auto;
 }
-
-.header h1 {
-    margin-left: 20px;
-}
-
